@@ -1,0 +1,27 @@
+.main-container[b-skgye4kbne] {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header[b-skgye4kbne] {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+main[b-skgye4kbne] {
+  border: 3px solid blue;
+  width: 96%;
+  max-width: 1080px;
+  margin: 1rem auto;
+}
+
+footer[b-skgye4kbne] {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin-top: auto;
+}/*# sourceMappingURL=MainLayout.razor.css.map */
