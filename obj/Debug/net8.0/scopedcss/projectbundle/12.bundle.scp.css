@@ -18,6 +18,22 @@
 }
 
 /* Navigation links */
+/* /Layout/JsonFetchComponent.razor.rz.scp.css */
+table[b-wnhcmt2y0t] {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td[b-wnhcmt2y0t], th[b-wnhcmt2y0t] {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even)[b-wnhcmt2y0t] {
+  background-color: #dddddd;
+}
 /* /Layout/MainLayout.razor.rz.scp.css */
 .main-container[b-skgye4kbne] {
   min-height: 100vh;
@@ -56,11 +72,11 @@ footer[b-skgye4kbne] {
 .converter-page-wrapper .speed-converter-wrapper[b-0eej5ehodi] {
   text-align: center;
 }
-/* /Pages/Counter.razor.rz.scp.css */
-h1[b-9k01uhv26o] {
-  color: blue;
-}
 /* /Pages/Home.razor.rz.scp.css */
 h1[b-5sod3xy88l] {
   color: green;
+}
+/* /Pages/Json.razor.rz.scp.css */
+h1[b-wqk7h7ej7l] {
+  color: rebeccapurple;
 }

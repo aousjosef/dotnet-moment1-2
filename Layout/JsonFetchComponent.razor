@@ -1,0 +1,44 @@
+﻿<h3>JsonFetchComponent</h3>
+@using UserData
+
+@code {
+    //Props 'parameter' som tas emot från parent 
+
+    [Parameter]
+
+    public UserDataClass[]? UsersDataArray { get; set; }
+}
+
+
+
+@if (UsersDataArray == null)
+{
+    <p>finns inga kurser</p>
+
+}
+else {
+
+    <table>
+        <tr>
+            <th>Kod</th>
+            <th>Namn</th>
+            <th>Progression</th>
+            <th>Länk</th>
+        </tr>
+
+        @foreach (var user in UsersDataArray)
+        {
+
+            <tr>
+                <td>@user.Code</td>
+                <td>@user.CourseName</td>
+                <td>@user.Progression</td>
+                <td><a href="@user.Syllabus" target="_blank">Länk</a></td>
+            </tr>            
+        }
+
+    </table>
+
+
+
+}

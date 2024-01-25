@@ -30,10 +30,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XEZvb3RlckxheW91dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aousj/Min enhet/Miun/k15 - DT191G ASP.NET C\#/m1/12/Pages/Json.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSnNvbi5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/aousj/Min enhet/Miun/k15 - DT191G ASP.NET C\#/m1/12/Pages/Weather.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV2VhdGhlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
@@ -46,6 +42,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XEhlYWRlckxheW91dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-7gqc06dhrd
 
+[C:/Users/aousj/Min enhet/Miun/k15 - DT191G ASP.NET C\#/m1/12/Layout/JsonFetchComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XEpzb25GZXRjaENvbXBvbmVudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-wnhcmt2y0t
+
 [C:/Users/aousj/Min enhet/Miun/k15 - DT191G ASP.NET C\#/m1/12/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-skgye4kbne
@@ -54,10 +54,10 @@ build_metadata.AdditionalFiles.CssScope = b-skgye4kbne
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udmVydC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-0eej5ehodi
 
-[C:/Users/aousj/Min enhet/Miun/k15 - DT191G ASP.NET C\#/m1/12/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = b-9k01uhv26o
-
 [C:/Users/aousj/Min enhet/Miun/k15 - DT191G ASP.NET C\#/m1/12/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-5sod3xy88l
+
+[C:/Users/aousj/Min enhet/Miun/k15 - DT191G ASP.NET C\#/m1/12/Pages/Json.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSnNvbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-wqk7h7ej7l

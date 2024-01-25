@@ -1,3 +1,33 @@
 @page "/json"
+@inject HttpClient Http
+@using UserData
+@inject HttpClient Http
+
+<PageTitle>JSON</PageTitle>
+
+@code {
+    private bool isLoading = true;
+    public UserDataClass[] UsersDataArray { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        UsersDataArray = await Http.GetFromJsonAsync<UserDataClass[]>("https://dahlgren.miun.se/ramschema.php");
+    }
+}
 
 <h1>JSON PAGE</h1>
+
+@if (UsersDataArray.Length > 0)
+{
+    <JsonFetchComponent UsersDataArray="@UsersDataArray" />
+}
+else if (isLoading)
+{
+    <p>Loading...</p>
+}
+else
+{
+    <p>No data available.</p>
+}
+
+

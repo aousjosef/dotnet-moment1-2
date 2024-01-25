@@ -18,5 +18,13 @@
   {
     "outputFile": "Pages/Convert.razor.css",
     "inputFile": "Pages/Convert.razor.scss"
+  },
+  {
+    "outputFile": "Pages/Json.razor.css",
+    "inputFile": "Pages/Json.razor.scss"
+  },
+  {
+    "outputFile": "Layout/JsonFetchComponent.razor.css",
+    "inputFile": "Layout/JsonFetchComponent.razor.scss"
   }
 ]
