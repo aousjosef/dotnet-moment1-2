@@ -1,0 +1,15 @@
+.converter-page-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    .meter-converter-wrapper {
+       // border: solid blue 3px;
+        text-align: center;
+    }
+
+    .speed-converter-wrapper {
+        //border: solid green 3px;
+        text-align: center;
+    }
+}

@@ -1,4 +1,4 @@
-.main-container {
+﻿.main-container {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -7,12 +7,10 @@
 header {
   background-color: #333;
   color: white;
-  padding: 20px;
-  text-align: center;
+  padding: 1.5rem;
 }
 
 main {
-  border: 3px solid blue;
   width: 96%;
   max-width: 1080px;
   margin: 1rem auto;
@@ -21,7 +19,7 @@ main {
 footer {
   background-color: #333;
   color: white;
-  padding: 20px;
+  padding: 1.5rem;
   text-align: center;
   margin-top: auto;
-}/*# sourceMappingURL=MainLayout.razor.css.map */
+}

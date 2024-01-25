@@ -1,0 +1,22 @@
+﻿[
+  {
+    "outputFile": "Pages/Home.razor.css",
+    "inputFile": "Pages/Home.razor.scss"
+  },
+  {
+    "outputFile": "Layout/HeaderLayout.razor.css",
+    "inputFile": "Layout/HeaderLayout.razor.scss"
+  },
+  {
+    "outputFile": "Layout/MainLayout.razor.css",
+    "inputFile": "Layout/MainLayout.razor.scss"
+  },
+  {
+    "outputFile": "Pages/Counter.razor.css",
+    "inputFile": "Pages/Counter.razor.scss"
+  },
+  {
+    "outputFile": "Pages/Convert.razor.css",
+    "inputFile": "Pages/Convert.razor.scss"
+  }
+]

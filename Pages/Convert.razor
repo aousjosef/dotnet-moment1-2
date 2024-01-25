@@ -1,0 +1,67 @@
+@page "/convert"
+
+
+
+
+@code {
+    public double meterInput;
+    public double meterResult;
+    private bool showMeterResults = false;
+
+
+    private double speedInput;
+    private double speedResult;
+    private bool showSpeedResult = false;
+
+
+    public void convertMeterToFeet()
+    {
+        meterResult = Math.Round(meterInput * 3.28084, 1);
+        showMeterResults = true;
+    }
+
+    private void convertSpeed(){
+
+        speedResult = Math.Round(speedInput * 0.62137);
+        showSpeedResult = true;
+
+    }
+}
+
+<div class="converter-page-wrapper"> 
+
+
+    <div class="meter-converter-wrapper">
+        
+        <h1>Konvertera meter till feet</h1>
+        <h3>Mata in i meter</h3>
+
+        <input @bind="meterInput" type="number">
+
+        <button @onclick="convertMeterToFeet">Konvertera</button>
+
+        @if (showMeterResults)
+        {
+            <h1>@meterInput meter är @meterResult feet! </h1>
+        }
+    </div>
+
+
+
+
+    <div class="speed-converter-wrapper"> 
+
+        <h1>Konvertera km/h till miles/hour</h1>
+        <h3>Mata in i km/h</h3>
+        <input @bind="speedInput" type="number">
+
+        <button @onclick="convertSpeed">Konvertera</button>
+
+        @if (showSpeedResult)
+        {
+            <h1>@speedInput km/h är @speedResult miles/hour! </h1>
+        }
+
+    </div>
+
+</div>

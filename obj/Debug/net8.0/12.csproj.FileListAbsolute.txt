@@ -1029,3 +1029,6 @@ C:\Users\aousj\Min enhet\Miun\k15 - DT191G ASP.NET C#\m1\12\obj\Debug\net8.0\ref
 C:\Users\aousj\Min enhet\Miun\k15 - DT191G ASP.NET C#\m1\12\obj\Debug\net8.0\12.pdb
 C:\Users\aousj\Min enhet\Miun\k15 - DT191G ASP.NET C#\m1\12\obj\Debug\net8.0\ref\12.dll
 C:\Users\aousj\Min enhet\Miun\k15 - DT191G ASP.NET C#\m1\12\obj\Debug\net8.0\scopedcss\Pages\Home.razor.rz.scp.css
+C:\Users\aousj\Min enhet\Miun\k15 - DT191G ASP.NET C#\m1\12\obj\Debug\net8.0\scopedcss\Layout\HeaderLayout.razor.rz.scp.css
+C:\Users\aousj\Min enhet\Miun\k15 - DT191G ASP.NET C#\m1\12\obj\Debug\net8.0\scopedcss\Pages\Counter.razor.rz.scp.css
+C:\Users\aousj\Min enhet\Miun\k15 - DT191G ASP.NET C#\m1\12\obj\Debug\net8.0\scopedcss\Pages\Convert.razor.rz.scp.css
