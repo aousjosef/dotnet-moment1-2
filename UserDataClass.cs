@@ -1,6 +1,4 @@
-﻿using Microsoft.AspNetCore.Components;
-using System;
-using System.Text.Json.Serialization;
+﻿//Userdataclass för att ta emot json data
 
 
 namespace UserData;

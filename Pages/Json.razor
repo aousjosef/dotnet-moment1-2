@@ -1,7 +1,7 @@
 @page "/json"
 @inject HttpClient Http
 @using UserData
-@inject HttpClient Http
+
 
 <PageTitle>JSON</PageTitle>
 
@@ -19,12 +19,11 @@
 
 @if (UsersDataArray.Length > 0)
 {
+    @* om UserDataArray är inte tom, då skickas en lista till child componenet obs: @using userData  *@
+
     <JsonFetchComponent UsersDataArray="@UsersDataArray" />
 }
-else if (isLoading)
-{
-    <p>Loading...</p>
-}
+
 else
 {
     <p>No data available.</p>

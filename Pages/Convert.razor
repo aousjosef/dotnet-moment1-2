@@ -4,6 +4,9 @@
 
 
 @code {
+
+    // Som tar emot inputs samt en boolean som för att  visa/dölja HTML element
+
     public double meterInput;
     public double meterResult;
     private bool showMeterResults = false;
@@ -13,7 +16,7 @@
     private double speedResult;
     private bool showSpeedResult = false;
 
-
+    // funktioner som aktiveras vid onclick
     public void convertMeterToFeet()
     {
         meterResult = Math.Round(meterInput * 3.28084, 1);
@@ -40,6 +43,8 @@
 
         <button @onclick="convertMeterToFeet">Konvertera</button>
 
+        @* if sats för att visa element *@
+
         @if (showMeterResults)
         {
             <h1>@meterInput meter är @meterResult feet! </h1>
@@ -56,6 +61,8 @@
         <input @bind="speedInput" type="number">
 
         <button @onclick="convertSpeed">Konvertera</button>
+
+        @* if sats för att visa element *@
 
         @if (showSpeedResult)
         {
