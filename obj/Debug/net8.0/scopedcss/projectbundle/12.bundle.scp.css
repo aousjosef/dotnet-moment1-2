@@ -74,7 +74,14 @@ footer[b-skgye4kbne] {
 }
 /* /Pages/Home.razor.rz.scp.css */
 h1[b-5sod3xy88l] {
-  color: green;
+  color: black;
+}
+
+p[b-5sod3xy88l] {
+  font-weight: normal;
+  line-height: 1.4;
+  text-align: justify;
+  font-size: large;
 }
 /* /Pages/Json.razor.rz.scp.css */
 h1[b-wqk7h7ej7l] {
